@@ -6,10 +6,10 @@ terraform {
   }
 }
 
-provider "google" {
-  project = "grey-sort-challenge"
-  region = "us-central1-a"
-}
+# provider "google" {
+#   project = "gd-gcp-gridu-cloud-cert"
+#   region = "us-central1-a"
+# }
 
 resource "google_storage_bucket" "funky-bucket" {
   name = "batch-pipeline"
